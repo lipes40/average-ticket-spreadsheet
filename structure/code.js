@@ -9,12 +9,14 @@ while(dia < 4){
     svv = 153.98
     squ = 3
     tkt = svv/squ
+    tkt = Math.round(tkt)
     }
   if(dia == 2){
     console.log("no dia 20/01")
     svv = 337.01
     squ = 7
     tkt = svv/squ
+    tkt = Math.round(tkt)
   }
 
   if(dia == 3){
@@ -22,6 +24,7 @@ while(dia < 4){
     svv = 295.33
     squ = 5
     tkt = svv/squ
+    tkt = Math.round(tkt)
     } 
   
   console.log("O valor das vendas é de:", svv) 
